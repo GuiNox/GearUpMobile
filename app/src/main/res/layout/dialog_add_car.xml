@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"/>
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo"/>
+
+    <EditText
+        android:id="@+id/etAnoCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etTipoVeiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Veículo"/>
+
+    <EditText
+        android:id="@+id/etDisponibilidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Disponibilidade"/>
+
+    <EditText
+        android:id="@+id/etDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição"/>
+
+    <EditText
+        android:id="@+id/etCarImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL da Imagem"/>
+
+</LinearLayout>
